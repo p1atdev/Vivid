@@ -11,6 +11,8 @@
 		3A2B247828925EEF00103A8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B247728925EEF00103A8B /* ContentView.swift */; };
 		3A2B247A28925EF100103A8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2B247928925EF100103A8B /* Assets.xcassets */; };
 		3A2B247E28925EF100103A8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2B247D28925EF100103A8B /* Preview Assets.xcassets */; };
+		3A2B24852892601E00103A8B /* LivePhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B24842892601E00103A8B /* LivePhoto.swift */; };
+		3A2B2487289272B600103A8B /* test_dusk.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3A2B2486289272B600103A8B /* test_dusk.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		3A2B247928925EF100103A8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A2B247B28925EF100103A8B /* Vivid.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Vivid.entitlements; sourceTree = "<group>"; };
 		3A2B247D28925EF100103A8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A2B24842892601E00103A8B /* LivePhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePhoto.swift; sourceTree = "<group>"; };
+		3A2B2486289272B600103A8B /* test_dusk.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = test_dusk.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 			children = (
 				3A2B247528925EEF00103A8B /* VividApp.swift */,
 				3A2B247728925EEF00103A8B /* ContentView.swift */,
+				3A2B24842892601E00103A8B /* LivePhoto.swift */,
 				3A2B247928925EF100103A8B /* Assets.xcassets */,
 				3A2B247B28925EF100103A8B /* Vivid.entitlements */,
+				3A2B2486289272B600103A8B /* test_dusk.mov */,
 				3A2B247C28925EF100103A8B /* Preview Content */,
 			);
 			path = Vivid;
@@ -128,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A2B247E28925EF100103A8B /* Preview Assets.xcassets in Resources */,
+				3A2B2487289272B600103A8B /* test_dusk.mov in Resources */,
 				3A2B247A28925EF100103A8B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +148,7 @@
 			files = (
 				3A2B247828925EEF00103A8B /* ContentView.swift in Sources */,
 				3A2B247628925EEF00103A8B /* VividApp.swift in Sources */,
+				3A2B24852892601E00103A8B /* LivePhoto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,8 +273,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Vivid/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Q2A6VDAQN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "To save live photos";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -299,8 +309,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Vivid/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Q2A6VDAQN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "To save live photos";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
